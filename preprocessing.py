@@ -1,0 +1,8 @@
+deskew = deskew(image)
+gray = get_grayscale(deskew)
+thresh = thresholding(gray)
+rnoise = remove_noise(gray)
+dilate = dilate(gray)
+erode = erode(gray)
+opening = opening(gray)
+canny = canny(gray)
